@@ -77,7 +77,8 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     border-bottom: 2px solid lightgray;
-    padding: 20px;
+    padding: 20px 0px;
+    margin: 0px 20px;
 
 }
 
@@ -92,19 +93,23 @@ h2 {
     border-top: 4px solid #4aaaa5;
     text-align: center;
     padding-top: 20px;
+
+}
+
+.main-section {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    height: auto;
 }
 /* End of all pages css styling */
 
 
 
 /* This section is for the About page only */
-.main-section {
-    width: 960px;
-    background-color: white;
-    margin: auto;
-    margin-top: 20px;
-    height: auto;
-}
 
 .floatLeftpic {
     float: left;
@@ -114,7 +119,7 @@ h2 {
 }
 
 .aboutMeParagraphs {
-    margin-top: 20px;
+    padding: 15px 20px 20px 20px;
     line-height: 25px;
 }
 
@@ -126,16 +131,39 @@ h2 {
     width: 250px;
     height: auto;
     border: 1px solid black;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+#Hangman {
+    float: left;
+}
+
+#RPG {
+    float: left;
+}
+
+#Trivia {
+    clear: both;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#Rutgers {
+    float: left;
+}
+
+#Rock {
+    clear: both;
+
 }
 
 .content {
     background-color: #4aaaa5;
     color: white;
-    padding: 20px;
+    padding: 18px;
     width: auto;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 /* End of Portfolio styling */
@@ -145,3 +173,27 @@ h2 {
 form {
     padding: 20px;
 }
+ /* (styling for text boxes only) */
+input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #777777
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+
+#submit {
+    width: 80px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 14px;
+    margin-top: 12px;
+    border: 0;
+}
+
+/* End of contact page styling */
